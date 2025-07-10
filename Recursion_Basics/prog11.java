@@ -1,3 +1,4 @@
+Remove Duplicates in a String
 class prog11 {
     public static void removeDuplicates (String str , int index , StringBuilder newStr , boolean[] map){
         if (index==str.length()){
