@@ -9,9 +9,9 @@ public class prog5 {
         int fnm2 = Fibonacci(n-2);
         int fn = fnm1 + fnm2;
         return fn;
-    }
+    }    
     public static void main(String[] args) {
-        int n=20;
+        int n=10;
        System.out.println((Fibonacci(n))); 
     }   
     
