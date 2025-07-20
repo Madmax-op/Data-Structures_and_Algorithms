@@ -14,7 +14,6 @@ public class prog2 {
         quickSort(arr, si, pIdx - 1);
         quickSort(arr, pIdx + 1, ei);
     }
-
     public static int partition(int arr[], int si , int ei){
         int pivot = arr[ei];
         int i = si - 1;
@@ -27,7 +26,6 @@ public class prog2 {
                 arr[j] = temp;
             }
         }
-
         i++;
         int temp = arr[i];
         arr[i] = arr[ei];
@@ -35,7 +33,6 @@ public class prog2 {
 
         return i;
     }
-
     public static void main(String[] args) {
         int[] arr = {45, 2, 4, 66, 1, 99, 33, 8, 7, 5};
         quickSort(arr, 0, arr.length - 1);
