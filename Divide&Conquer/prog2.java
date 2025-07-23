@@ -10,6 +10,7 @@ public class prog2 {
         if (si >= ei){
              return;
         }
+
         int pIdx = partition(arr, si , ei);
         quickSort(arr, si, pIdx - 1);
         quickSort(arr, pIdx + 1, ei);
@@ -33,7 +34,7 @@ public class prog2 {
         return i;
     }
     public static void main(String[] args) {
-        int[] arr = {45, 2, 4, 66, 1, 99, 33, 8, 7, 5};
+        int[] arr = {45, 2, 4, 65, 1, 99, 33, 8, 7, 5};
         quickSort(arr, 0, arr.length - 1);
         printArray(arr);
     }
