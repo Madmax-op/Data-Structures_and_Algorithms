@@ -22,8 +22,7 @@ public class prog4 {
             System.out.println();
         }
     }
-
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         int n=2;
         char board [][]= new char [n][n];
         //initialize
